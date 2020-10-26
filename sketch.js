@@ -38,7 +38,7 @@ mario.addAnimation("marioimg",marioimg)
 mario.scale=2
 mario.addAnimation("collided", mariocollided)
 mario.setCollider("circle", 0,0, 15)
-mario.debug=true
+//mario.debug=true
 bricksGroup=new Group()
 obstacleGroup= new Group()
 gameover=createSprite(600,300,50,50)
@@ -114,7 +114,7 @@ function spawnObstacles()
     obstacle.addAnimation("obstacleimg", obstacleimg)
     obstacle.scale=1
     obstacle.setCollider("circle", 0,0, 20)
-obstacle.debug=true
+//obstacle.debug=false
     obstacleGroup.add(obstacle)
 
 
